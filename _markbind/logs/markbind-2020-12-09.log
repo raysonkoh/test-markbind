@@ -1,0 +1,103 @@
+2020-12-09T00:43:19.915Z - info: Website generation started at 08:43:19
+2020-12-09T00:43:19.979Z - info: Building assets...
+2020-12-09T00:43:19.998Z - info: Assets built
+2020-12-09T00:43:19.998Z - info: Generating pages...
+2020-12-09T00:43:21.040Z - info: Pages built
+2020-12-09T00:43:24.730Z - info: Site data built
+2020-12-09T00:43:24.731Z - info: Website generation complete! Total build time: 4.888s
+2020-12-09T00:43:24.759Z - info: Serving "/Users/raysonkoh/Documents/test-markbind/_site" at http://127.0.0.1:8080
+2020-12-09T00:43:24.759Z - info: Press CTRL+C to stop ...
+2020-12-09T00:43:33.049Z - info: [08:43:33] Reload for file change: /Users/raysonkoh/Documents/test-markbind/index.md
+2020-12-09T00:43:34.058Z - info: Rebuilding 1 pages
+2020-12-09T00:43:34.154Z - info: Site data built
+2020-12-09T00:43:34.154Z - info: Pages rebuilt
+2020-12-09T00:43:34.154Z - info: Website regeneration complete! Total build time: 0.098s
+2020-12-09T00:43:46.791Z - info: [08:43:46] Reload for file change: /Users/raysonkoh/Documents/test-markbind/index.md
+2020-12-09T00:43:47.796Z - info: Rebuilding 1 pages
+2020-12-09T00:43:47.954Z - info: Site data built
+2020-12-09T00:43:47.955Z - info: Pages rebuilt
+2020-12-09T00:43:47.955Z - info: Website regeneration complete! Total build time: 0.16s
+2020-12-09T02:46:32.386Z - info: Website generation started at 10:46:32
+2020-12-09T02:46:32.447Z - info: Building assets...
+2020-12-09T02:46:32.466Z - info: Assets built
+2020-12-09T02:46:32.466Z - info: Generating pages...
+2020-12-09T02:46:33.445Z - info: Pages built
+2020-12-09T02:46:36.421Z - info: Site data built
+2020-12-09T02:46:36.422Z - info: Website generation complete! Total build time: 4.114s
+2020-12-09T02:46:36.445Z - info: Serving "/Users/raysonkoh/Documents/test-markbind/_site" at http://127.0.0.1:8080
+2020-12-09T02:46:36.448Z - info: Press CTRL+C to stop ...
+2020-12-09T03:01:45.546Z - info: [11:01:45] Reload for file change: /Users/raysonkoh/Documents/test-markbind/index.md
+2020-12-09T03:01:46.561Z - info: Rebuilding 1 pages
+2020-12-09T03:01:46.799Z - info: Site data built
+2020-12-09T03:01:46.799Z - info: Pages rebuilt
+2020-12-09T03:01:46.799Z - info: Website regeneration complete! Total build time: 0.241s
+2020-12-09T03:18:22.160Z - info: [11:18:22] Reload for file change: /Users/raysonkoh/Documents/test-markbind/index.md
+2020-12-09T03:18:23.169Z - info: Rebuilding 1 pages
+2020-12-09T03:18:23.404Z - info: Site data built
+2020-12-09T03:18:23.405Z - info: Pages rebuilt
+2020-12-09T03:18:23.405Z - info: Website regeneration complete! Total build time: 0.238s
+2020-12-09T03:34:06.263Z - info: [11:34:06] Reload for file change: /Users/raysonkoh/Documents/test-markbind/index.md
+2020-12-09T03:34:07.278Z - info: Rebuilding 1 pages
+2020-12-09T03:34:07.508Z - info: Site data built
+2020-12-09T03:34:07.509Z - info: Pages rebuilt
+2020-12-09T03:34:07.509Z - info: Website regeneration complete! Total build time: 0.235s
+2020-12-09T03:34:18.203Z - info: [11:34:18] Reload for file change: /Users/raysonkoh/Documents/test-markbind/index.md
+2020-12-09T03:34:19.206Z - info: Rebuilding 1 pages
+2020-12-09T03:34:19.314Z - info: Site data built
+2020-12-09T03:34:19.314Z - info: Pages rebuilt
+2020-12-09T03:34:19.315Z - info: Website regeneration complete! Total build time: 0.109s
+2020-12-09T03:34:42.558Z - info: [11:34:42] Reload for file change: /Users/raysonkoh/Documents/test-markbind/index.md
+2020-12-09T03:34:43.561Z - info: Rebuilding 1 pages
+2020-12-09T03:34:43.758Z - info: Site data built
+2020-12-09T03:34:43.758Z - info: Pages rebuilt
+2020-12-09T03:34:43.758Z - info: Website regeneration complete! Total build time: 0.198s
+2020-12-09T03:54:15.397Z - info: [11:54:15] Reload for file change: /Users/raysonkoh/Documents/test-markbind/index.md
+2020-12-09T03:54:16.417Z - info: Rebuilding 1 pages
+2020-12-09T03:54:16.612Z - info: Site data built
+2020-12-09T03:54:16.612Z - info: Pages rebuilt
+2020-12-09T03:54:16.613Z - info: Website regeneration complete! Total build time: 0.199s
+2020-12-09T04:14:20.246Z - info: [12:14:20] Reload for file change: /Users/raysonkoh/Documents/test-markbind/index.md
+2020-12-09T04:14:21.260Z - info: Rebuilding 1 pages
+2020-12-09T04:14:21.701Z - info: Site data built
+2020-12-09T04:14:21.701Z - info: Pages rebuilt
+2020-12-09T04:14:21.701Z - info: Website regeneration complete! Total build time: 0.443s
+2020-12-09T04:14:30.057Z - info: [12:14:30] Reload for file change: /Users/raysonkoh/Documents/test-markbind/index.md
+2020-12-09T04:14:31.059Z - info: Rebuilding 1 pages
+2020-12-09T04:14:31.173Z - info: Site data built
+2020-12-09T04:14:31.173Z - info: Pages rebuilt
+2020-12-09T04:14:31.173Z - info: Website regeneration complete! Total build time: 0.115s
+2020-12-09T04:17:54.530Z - info: [12:17:54] Reload for file change: /Users/raysonkoh/Documents/test-markbind/index.md
+2020-12-09T04:17:55.532Z - info: Rebuilding 1 pages
+2020-12-09T04:17:55.630Z - info: Site data built
+2020-12-09T04:17:55.630Z - info: Pages rebuilt
+2020-12-09T04:17:55.630Z - info: Website regeneration complete! Total build time: 0.099s
+2020-12-09T06:21:41.034Z - info: [14:21:41] Reload for file change: /Users/raysonkoh/Documents/test-markbind/index.md
+2020-12-09T06:21:42.049Z - info: Rebuilding 1 pages
+2020-12-09T06:21:42.300Z - info: Site data built
+2020-12-09T06:21:42.301Z - info: Pages rebuilt
+2020-12-09T06:21:42.301Z - info: Website regeneration complete! Total build time: 0.254s
+2020-12-09T06:21:56.707Z - info: [14:21:56] Reload for file change: /Users/raysonkoh/Documents/test-markbind/index.md
+2020-12-09T06:21:57.708Z - info: Rebuilding 1 pages
+2020-12-09T06:21:57.828Z - info: Site data built
+2020-12-09T06:21:57.828Z - info: Pages rebuilt
+2020-12-09T06:21:57.828Z - info: Website regeneration complete! Total build time: 0.121s
+2020-12-09T06:22:06.222Z - info: [14:22:06] Reload for file change: /Users/raysonkoh/Documents/test-markbind/index.md
+2020-12-09T06:22:07.224Z - info: Rebuilding 1 pages
+2020-12-09T06:22:07.329Z - info: Site data built
+2020-12-09T06:22:07.329Z - info: Pages rebuilt
+2020-12-09T06:22:07.329Z - info: Website regeneration complete! Total build time: 0.105s
+2020-12-09T06:25:16.587Z - info: [14:25:16] Reload for file change: /Users/raysonkoh/Documents/test-markbind/index.md
+2020-12-09T06:25:17.595Z - info: Rebuilding 1 pages
+2020-12-09T06:25:17.860Z - info: Site data built
+2020-12-09T06:25:17.861Z - info: Pages rebuilt
+2020-12-09T06:25:17.861Z - info: Website regeneration complete! Total build time: 0.268s
+2020-12-09T06:26:04.637Z - info: [14:26:04] Reload for file change: /Users/raysonkoh/Documents/test-markbind/index.md
+2020-12-09T06:26:05.640Z - info: Rebuilding 1 pages
+2020-12-09T06:26:05.759Z - info: Site data built
+2020-12-09T06:26:05.759Z - info: Pages rebuilt
+2020-12-09T06:26:05.760Z - info: Website regeneration complete! Total build time: 0.12s
+2020-12-09T06:26:20.340Z - info: [14:26:20] Reload for file change: /Users/raysonkoh/Documents/test-markbind/index.md
+2020-12-09T06:26:21.343Z - info: Rebuilding 1 pages
+2020-12-09T06:26:21.476Z - info: Site data built
+2020-12-09T06:26:21.476Z - info: Pages rebuilt
+2020-12-09T06:26:21.476Z - info: Website regeneration complete! Total build time: 0.134s
