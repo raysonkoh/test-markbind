@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Dev Docs",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "cwd": "${workspaceFolder}/docs",
+            "program": "${workspaceFolder}/packages/cli/index.js",
+            "args": [
+                "serve",
+                "-o",
+                "-d"
+            ]
+        }
+    ]
+}

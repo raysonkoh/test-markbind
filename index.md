@@ -1,11 +1,23 @@
 <frontmatter>
-  header: header.md
+  layout: default.md
   pageNav: 2
   pageNavTitle: "Chapters of This Page"
-  siteNav: site-nav.md
 </frontmatter>
 
 <br>
+
+{% ext studentScoreboard = "scoreboard.json" %}
+
+Student Number | Score | Rank
+:----- | :-------: | ----
+{% for student in studentScoreboard.students -%}
+{{ student.number }} | {{ student.score }} | {{ student.rank }}
+{% endfor %}
+
+<small>Last updated at {{ studentScoreboard.lastUpdated }}</small>
+
+
+<div> {{ jsonVariableExample }} </div>
 
 <div class="jumbotron jumbotron-fluid bg-primary text-white">
   <div class="container">
@@ -16,78 +28,6 @@
 
 # Heading 1
 Some text some text some text some text some text some text some text. **Some text some text some text some text some text ==some text== some text**. Some text some text some text some text some text some text some text some text some text some text some text some text some text some text. Some text some text some text some text some text some text. Some text some text some text some text some text some text some text.
-
-<panel header="expand with header" alt="this is the alt">
-  Lorem ipsum ...
-</panel>
-
-<panel header="expand with no header" alt="this is the alt" expand-headerless>
-  Lorem ipsum ...
-</panel>
-
-<panel header="min-expand with header" alt="min-expand with header" minimized>
-  Lorem ipsum ...
-</panel>
-
-<panel header="min-expand with no header" alt="min-expand with no header" minimized expand-headerless>
-  Lorem ipsum ...
-</panel>
-
-<panel header="expanded-expand with header" alt="expanded-expand with header" expanded>
-  Lorem ipsum ...
-</panel>
-
-<panel header="expanded-expand no header" alt="expanded-expand no header" expanded expand-headerless>
-  Lorem ipsum ...
-</panel>
-
-<panel header="type-dark-expand with header" alt="expanded-expand with header" type="dark">
-  Lorem ipsum ...
-</panel>
-
-<panel header="type-dark-expand no header" alt="expanded-expand no header" type="dark" expand-headerless>
-  Lorem ipsum ...
-</panel>
-
-<panel header="**expand with header** :rocket: ![](https://markbind.org/images/logo-lightbackground.png =x20)" type="seamless">
-  ...
-</panel>
-
-<panel header="**expand with no header** :rocket: ![](https://markbind.org/images/logo-lightbackground.png =x20)" type="seamless" expand-headerless>
-  ...
-</panel>
-
-<panel header="Parent Panel expand with header">
-  <panel header="Level 1 Nested Panel">
-    <panel header="Level 2 Nested Panel">
-      <tip-box type="success">
-        I'm a nested tip-box
-      </tip-box>
-      <panel header="Level 3 Nested Panel" type="minimal">
-        minimal-type panel
-      </panel>
-    </panel>
-  </panel>
-  <panel header="Level 1 Nested Panel" type="info">
-    Some Text
-  </panel>
-</panel>
-
-<panel header="Parent Panel expand with no header" expand-headerless>
-  <panel header="Level 1 Nested Panel">
-    <panel header="Level 2 Nested Panel">
-      <tip-box type="success">
-        I'm a nested tip-box
-      </tip-box>
-      <panel header="Level 3 Nested Panel" type="minimal">
-        minimal-type panel
-      </panel>
-    </panel>
-  </panel>
-  <panel header="Level 1 Nested Panel" type="info">
-    Some Text
-  </panel>
-</panel>
 
 **A block quote:**
 
@@ -105,7 +45,7 @@ Some text some text some text some text some text some text some text. **Some te
 
 ```html
 <foo>
-  <bar type="name">goo</bar>
+  <bar type="name">gooferfgjergergergergergeorgerogkoerjgjeoghioerjgpwkqoegirwjgrbpvojrewhjgiojrogjbvirehbp;bkeoprjbhoregvwpq</bar>
 </foo>
 ```
 

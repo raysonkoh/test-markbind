@@ -1,0 +1,22 @@
+2021-01-14T13:26:58.289Z - info: Website generation started at 9:26:58 PM
+2021-01-14T13:26:58.349Z - info: Building assets...
+2021-01-14T13:26:58.370Z - info: Assets built
+2021-01-14T13:26:58.370Z - info: Generating pages...
+2021-01-14T13:26:58.572Z - info: Pages built
+2021-01-14T13:27:03.175Z - info: Site data built
+2021-01-14T13:27:03.175Z - info: Website generation complete! Total build time: 4.934s
+2021-01-14T13:27:03.200Z - info: Serving "/Users/raysonkoh/Documents/dev/test-markbind/_site" at http://127.0.0.1:8080
+2021-01-14T13:27:03.200Z - info: Press CTRL+C to stop ...
+2021-01-14T13:30:29.909Z - info: [9:30:29 PM] Reload for file change: /Users/raysonkoh/Documents/dev/test-markbind/site.json
+2021-01-14T13:30:30.919Z - info: Assets built
+2021-01-14T13:30:56.374Z - info: [9:30:56 PM] Reload for file change: /Users/raysonkoh/Documents/dev/test-markbind/site.json
+2021-01-14T13:30:57.379Z - info: Assets built
+2021-01-14T13:31:06.329Z - info: Website generation started at 9:31:06 PM
+2021-01-14T13:31:06.385Z - info: Building assets...
+2021-01-14T13:31:06.401Z - info: Assets built
+2021-01-14T13:31:06.402Z - info: Generating pages...
+2021-01-14T13:31:06.589Z - info: Pages built
+2021-01-14T13:31:10.486Z - info: Site data built
+2021-01-14T13:31:10.487Z - info: Website generation complete! Total build time: 4.177s
+2021-01-14T13:31:10.503Z - info: Serving "/Users/raysonkoh/Documents/dev/test-markbind/_site" at http://127.0.0.1:8080
+2021-01-14T13:31:10.504Z - info: Press CTRL+C to stop ...
