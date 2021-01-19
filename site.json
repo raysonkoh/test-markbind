@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://github.com/raysonkoh/test-markbind.git",
+  "baseUrl": "raysonkoh/test-markbind",
   "titlePrefix": "",
   "ignore": [
     "_markbind/layouts/*",

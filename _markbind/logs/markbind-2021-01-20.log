@@ -10,3 +10,32 @@
 2021-01-19T22:23:55.768Z - info: Press CTRL+C to stop ...
 2021-01-19T22:26:09.428Z - info: [6:26:09 AM] Reload for file change: /Users/raysonkoh/Documents/dev/cs3281/test-markbind/site.json
 2021-01-19T22:26:10.433Z - info: Assets built
+2021-01-19T22:30:26.432Z - error: Cannot find module '@markbind/core-web/webpack.dev'
+Require stack:
+- /Users/raysonkoh/.nvm/versions/node/v12.20.0/lib/node_modules/markbind-cli/index.js
+2021-01-19T22:30:30.475Z - info: Website generation started at 6:30:30 AM
+2021-01-19T22:30:30.547Z - info: Building assets...
+2021-01-19T22:30:30.574Z - info: Assets built
+2021-01-19T22:30:30.575Z - info: Generating pages...
+2021-01-19T22:30:30.760Z - info: Pages built
+2021-01-19T22:30:31.031Z - info: Site data built
+2021-01-19T22:30:31.031Z - info: Website generation complete! Total build time: 0.588s
+2021-01-19T22:30:31.043Z - info: Serving "/Users/raysonkoh/Documents/dev/cs3281/test-markbind/_site" at http://127.0.0.1:8080
+2021-01-19T22:30:31.043Z - info: Press CTRL+C to stop ...
+2021-01-19T22:32:51.939Z - info: Website generation started at 6:32:51 AM
+2021-01-19T22:32:52.014Z - info: Building assets...
+2021-01-19T22:32:52.047Z - info: Assets built
+2021-01-19T22:32:52.047Z - info: Generating pages...
+2021-01-19T22:32:52.223Z - info: Pages built
+2021-01-19T22:32:52.456Z - info: Site data built
+2021-01-19T22:32:52.456Z - info: Website generation complete! Total build time: 0.536s
+2021-01-19T22:32:52.456Z - info: Build success!
+2021-01-19T22:33:19.535Z - info: Website generation started at 6:33:19 AM
+2021-01-19T22:33:19.605Z - info: Building assets...
+2021-01-19T22:33:19.635Z - info: Assets built
+2021-01-19T22:33:19.635Z - info: Generating pages...
+2021-01-19T22:33:19.813Z - info: Pages built
+2021-01-19T22:33:19.905Z - info: Site data built
+2021-01-19T22:33:19.906Z - info: Website generation complete! Total build time: 0.389s
+2021-01-19T22:33:19.917Z - info: Serving "/Users/raysonkoh/Documents/dev/cs3281/test-markbind/_site" at http://127.0.0.1:8080
+2021-01-19T22:33:19.918Z - info: Press CTRL+C to stop ...
