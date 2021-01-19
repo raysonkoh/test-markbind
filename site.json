@@ -29,6 +29,6 @@
     "repo": "https://github.com/raysonkoh/test-markbind.git"
   },
   "style": {
-    "bootstrapTheme": "bootswatch-pulse"
+    "codeTheme": "light"
   }
 }

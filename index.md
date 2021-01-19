@@ -6,25 +6,14 @@
 
 <br>
 
-{% ext studentScoreboard = "scoreboard.json" %}
-
-Student Number | Score | Rank
-:----- | :-------: | ----
-{% for student in studentScoreboard.students -%}
-{{ student.number }} | {{ student.score }} | {{ student.rank }}
-{% endfor %}
-
-<small>Last updated at {{ studentScoreboard.lastUpdated }}</small>
-
-
-<div> {{ jsonVariableExample }} </div>
-
 <div class="jumbotron jumbotron-fluid bg-primary text-white">
   <div class="container">
     <h1 class="display-4 no-index">Landing Page Title</h1>
     <p class="lead">A tagline can go here</p>
   </div>
 </div>
+
+<include src="test.md" />
 
 # Heading 1
 Some text some text some text some text some text some text some text. **Some text some text some text some text some text ==some text== some text**. Some text some text some text some text some text some text some text some text some text some text some text some text some text some text. Some text some text some text some text some text some text. Some text some text some text some text some text some text some text.

@@ -20,3 +20,12 @@
 2021-01-16T04:12:13.666Z - info: Website generation complete! Total build time: 0.458s
 2021-01-16T04:12:13.666Z - info: Build success!
 2021-01-16T04:12:39.583Z - info: Deployed at https://raysonkoh.github.io/test-markbind!
+2021-01-16T08:41:29.372Z - info: Website generation started at 4:41:29 PM
+2021-01-16T08:41:29.452Z - info: Building assets...
+2021-01-16T08:41:29.479Z - info: Assets built
+2021-01-16T08:41:29.479Z - info: Generating pages...
+2021-01-16T08:41:29.750Z - info: Pages built
+2021-01-16T08:41:30.037Z - info: Site data built
+2021-01-16T08:41:30.038Z - info: Website generation complete! Total build time: 0.703s
+2021-01-16T08:41:30.055Z - info: Serving "/Users/raysonkoh/Documents/dev/cs3281/test-markbind/_site" at http://127.0.0.1:8080
+2021-01-16T08:41:30.056Z - info: Press CTRL+C to stop ...
