@@ -1,5 +1,5 @@
 {
-  "baseUrl": "",
+  "baseUrl": "https://github.com/raysonkoh/test-markbind.git",
   "titlePrefix": "",
   "ignore": [
     "_markbind/layouts/*",
@@ -18,7 +18,10 @@
       "title": "Landing Page"
     },
     {
-      "glob": ["**/index.md", "**/*.+(md|mbd)"]
+      "glob": [
+        "**/index.md",
+        "**/*.+(md|mbd)"
+      ]
     }
   ],
   "deploy": {

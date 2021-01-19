@@ -1,1 +1,12 @@
 2021-01-19T22:20:50.085Z - info: Initialization success.
+2021-01-19T22:23:55.211Z - info: Website generation started at 6:23:55 AM
+2021-01-19T22:23:55.294Z - info: Building assets...
+2021-01-19T22:23:55.321Z - info: Assets built
+2021-01-19T22:23:55.322Z - info: Generating pages...
+2021-01-19T22:23:55.507Z - info: Pages built
+2021-01-19T22:23:55.719Z - info: Site data built
+2021-01-19T22:23:55.719Z - info: Website generation complete! Total build time: 0.523s
+2021-01-19T22:23:55.767Z - info: Serving "/Users/raysonkoh/Documents/dev/cs3281/test-markbind/_site" at http://127.0.0.1:8080
+2021-01-19T22:23:55.768Z - info: Press CTRL+C to stop ...
+2021-01-19T22:26:09.428Z - info: [6:26:09 AM] Reload for file change: /Users/raysonkoh/Documents/dev/cs3281/test-markbind/site.json
+2021-01-19T22:26:10.433Z - info: Assets built
