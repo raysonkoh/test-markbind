@@ -18,9 +18,9 @@
   <script src="../markbind/js/vue.min.js"></script>
   <script src="../markbind/js/markbind.min.js"></script>
   <script src="../markbind/js/jquery.min.js"></script>
-  <link rel="stylesheet" href="/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css">
+  <link rel="stylesheet" href="/test-markbind/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css">
 
-  <link rel="stylesheet" href="/stylesheets/main.css">
+  <link rel="stylesheet" href="/test-markbind/stylesheets/main.css">
 </head>
 
 <body>
@@ -28,16 +28,16 @@
 
     <header fixed>
       <navbar type="dark" class=" temp-navbar">
-        <a slot="brand" href="/index.html" title="Home" class="navbar-brand">Your Logo</a>
-        <li><a href="/contents/topic1.html" class="nav-link">Topic 1</a></li>
-        <li><a href="/contents/topic2.html" class="nav-link">Topic 2</a></li>
+        <a slot="brand" href="/test-markbind/index.html" title="Home" class="navbar-brand">Your Logo</a>
+        <li><a href="/test-markbind/contents/topic1.html" class="nav-link">Topic 1</a></li>
+        <li><a href="/test-markbind/contents/topic2.html" class="nav-link">Topic 2</a></li>
         <div class="nav-link temp-dropdown-placeholder"></div>
         <div class="nav-link temp-dropdown temp-dropdown-placeholder"></div>
         <div class="nav-link temp-dropdown temp-dropdown-placeholder"></div>
         <div class="nav-link temp-dropdown temp-dropdown-placeholder"></div>
         <dropdown class="nav-link temp-dropdown"><template slot="_header">Topic 3</template>
-          <li><a href="/contents/topic3a.html" class="dropdown-item">Topic 3a</a></li>
-          <li><a href="/contents/topic3b.html" class="dropdown-item">Topic 3b</a></li>
+          <li><a href="/test-markbind/contents/topic3a.html" class="dropdown-item">Topic 3a</a></li>
+          <li><a href="/test-markbind/contents/topic3b.html" class="dropdown-item">Topic 3b</a></li>
         </dropdown>
         <li slot="right">
           <form class="navbar-form">
@@ -55,13 +55,13 @@
           <site-nav>
             <ul class="site-nav-list site-nav-list-root">
               <li>
-                <div class="site-nav-default-list-item site-nav-list-item-0" onclick="handleSiteNavClick(this)"><a href="/index.html">Home 🏠</a></div>
+                <div class="site-nav-default-list-item site-nav-list-item-0" onclick="handleSiteNavClick(this)"><a href="/test-markbind/index.html">Home 🏠</a></div>
               </li>
               <li>
-                <div class="site-nav-default-list-item site-nav-list-item-0" onclick="handleSiteNavClick(this)"><a href="/contents/topic1.html">Topic 1</a></div>
+                <div class="site-nav-default-list-item site-nav-list-item-0" onclick="handleSiteNavClick(this)"><a href="/test-markbind/contents/topic1.html">Topic 1</a></div>
               </li>
               <li>
-                <div class="site-nav-default-list-item site-nav-list-item-0" onclick="handleSiteNavClick(this)"><a href="/contents/topic2.html">Topic 2</a></div>
+                <div class="site-nav-default-list-item site-nav-list-item-0" onclick="handleSiteNavClick(this)"><a href="/test-markbind/contents/topic2.html">Topic 2</a></div>
               </li>
               <li>
                 <div class="site-nav-default-list-item site-nav-list-item-0" onclick="handleSiteNavClick(this)">Topic 3
@@ -71,10 +71,10 @@
                 </div>
                 <ul class="site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list">
                   <li>
-                    <div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/contents/topic3a.html">Topic 3a</a></div>
+                    <div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/test-markbind/contents/topic3a.html">Topic 3a</a></div>
                   </li>
                   <li>
-                    <div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/contents/topic3b.html">Topic 3b</a></div>
+                    <div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/test-markbind/contents/topic3b.html">Topic 3b</a></div>
                   </li>
                 </ul>
               </li>
@@ -106,7 +106,7 @@
 </body>
 <script src="../markbind/js/bootstrap-utility.min.js"></script>
 <script>
-  const baseUrl = ''
+  const baseUrl = '/test-markbind'
   MarkBind.setupWithSearch()
 </script>
 <script>
