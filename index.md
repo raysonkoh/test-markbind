@@ -6,8 +6,6 @@
 
 <br>
 
-<h1>Hello World!!!</h1>
-
 <div class="jumbotron jumbotron-fluid bg-primary text-white">
   <div class="container">
     <h1 class="display-4 no-index">Landing Page Title</h1>
@@ -15,7 +13,8 @@
   </div>
 </div>
 
-<include src="test.md" />
+<h1>Something</h1>
+
 
 # Heading 1
 Some text some text some text some text some text some text some text. **Some text some text some text some text some text ==some text== some text**. Some text some text some text some text some text some text some text some text some text some text some text some text some text some text. Some text some text some text some text some text some text. Some text some text some text some text some text some text some text.
