@@ -1,12 +1,23 @@
-language: node_js
-node_js:
-  - 10
+environment:
+  # Nuxt requires node v8 minimum
+  nodejs_version: '10'
+
+# Only run on master branch
+branches:
+  only:
+    - master
+
+# Install scripts. (runs after repo cloning)
 install:
-  - npm i -g markbind-cli
-script: markbind build
-deploy:
-  provider: script
-  script: markbind deploy --travis
-  skip_cleanup: true
-  on:
-    branch: master
+  # switch nodejs version
+  - ps: Install-Product node $env:nodejs_version
+  # install modules
+  - npm run setup
+  # deploy 
+  - markbind deploy --ci
+
+# No tests to run
+test: off
+
+# Don't actually build.
+build: off
