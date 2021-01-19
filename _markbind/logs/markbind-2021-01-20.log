@@ -39,3 +39,20 @@ Require stack:
 2021-01-19T22:33:19.906Z - info: Website generation complete! Total build time: 0.389s
 2021-01-19T22:33:19.917Z - info: Serving "/Users/raysonkoh/Documents/dev/cs3281/test-markbind/_site" at http://127.0.0.1:8080
 2021-01-19T22:33:19.918Z - info: Press CTRL+C to stop ...
+2021-01-19T22:36:38.660Z - info: Website generation started at 6:36:38 AM
+2021-01-19T22:36:38.741Z - info: Building assets...
+2021-01-19T22:36:38.773Z - info: Assets built
+2021-01-19T22:36:38.774Z - info: Generating pages...
+2021-01-19T22:36:38.964Z - info: Pages built
+2021-01-19T22:36:39.321Z - info: Site data built
+2021-01-19T22:36:39.321Z - info: Website generation complete! Total build time: 0.7s
+2021-01-19T22:36:39.321Z - info: Build success!
+2021-01-19T22:36:46.051Z - info: Website generation started at 6:36:46 AM
+2021-01-19T22:36:46.106Z - info: Building assets...
+2021-01-19T22:36:46.137Z - info: Assets built
+2021-01-19T22:36:46.138Z - info: Generating pages...
+2021-01-19T22:36:46.319Z - info: Pages built
+2021-01-19T22:36:46.377Z - info: Site data built
+2021-01-19T22:36:46.378Z - info: Website generation complete! Total build time: 0.346s
+2021-01-19T22:36:46.390Z - info: Serving "/Users/raysonkoh/Documents/dev/cs3281/test-markbind/_site" at http://127.0.0.1:8080
+2021-01-19T22:36:46.390Z - info: Press CTRL+C to stop ...
