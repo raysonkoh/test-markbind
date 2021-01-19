@@ -13,9 +13,6 @@
   </div>
 </div>
 
-<h1>Something</h1>
-
-
 # Heading 1
 Some text some text some text some text some text some text some text. **Some text some text some text some text some text ==some text== some text**. Some text some text some text some text some text some text some text some text some text some text some text some text some text some text. Some text some text some text some text some text some text. Some text some text some text some text some text some text some text.
 
@@ -35,7 +32,7 @@ Some text some text some text some text some text some text some text. **Some te
 
 ```html
 <foo>
-  <bar type="name">gooferfgjergergergergergeorgerogkoerjgjeoghioerjgpwkqoegirwjgrbpvojrewhjgiojrogjbvirehbp;bkeoprjbhoregvwpq</bar>
+  <bar type="name">goo</bar>
 </foo>
 ```
 

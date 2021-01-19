@@ -18,17 +18,10 @@
       "title": "Landing Page"
     },
     {
-      "glob": [
-        "**/index.md",
-        "**/*.+(md|mbd)"
-      ]
+      "glob": ["**/index.md", "**/*.+(md|mbd)"]
     }
   ],
   "deploy": {
-    "message": "Site Update.",
-    "repo": "https://github.com/raysonkoh/test-markbind.git"
-  },
-  "style": {
-    "codeTheme": "light"
+    "message": "Site Update."
   }
 }
