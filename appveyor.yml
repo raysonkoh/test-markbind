@@ -13,8 +13,6 @@ install:
   - ps: Install-Product node $env:nodejs_version
   # install test deploy markbind-cli
   - npm i -g git://github.com/raysonkoh/test-dep-markbind.git
-  # install modules
-  - npm run setup
   # deploy 
   - markbind deploy --ci
 
