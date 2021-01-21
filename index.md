@@ -13,8 +13,22 @@
   </div>
 </div>
 
+<tabs>
+<tab header="hello">
+<tabs>
+<tab header="1">
+<box>
 <h1>Hello WOrld! this is my site toh</h1>
+</box>
+</tab>
+</tabs>
+</tab>
+<tab header="hello 2">
+<box>
 <h2>Another line yo</h2>
+</box>
+</tab>
+</tabs>
 
 # Heading 1
 Some text some text some text some text some text some text some text. **Some text some text some text some text some text ==some text== some text**. Some text some text some text some text some text some text some text some text some text some text some text some text some text some text. Some text some text some text some text some text some text. Some text some text some text some text some text some text some text.
