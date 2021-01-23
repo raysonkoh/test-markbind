@@ -8,6 +8,7 @@ install:
   - npm link 
   - cd ../../ 
   - npm run setup 
+  - cd $TRAVIS_BUILD_DIR
 script: markbind build
 deploy:
   provider: script
