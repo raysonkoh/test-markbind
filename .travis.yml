@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - 10
 install:
-  - git clone -b fix-1432 https://github.com/raysonkoh/markbind.git && cd markbind && npm run setup
+  - git clone -b fix-1432 https://github.com/raysonkoh/markbind.git && cd markbind/packages/cli && npm link && cd ../../ && npm run setup
 script: markbind build
 deploy:
   provider: script
