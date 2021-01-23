@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - 10
 install:
-  - git clone -branch fix-1432 https://github.com/raysonkoh/markbind.git
+  - git clone -b fix-1432 https://github.com/raysonkoh/markbind.git
   - npm run setup
 script: node packages/cli/index.js build
 deploy:
