@@ -13,7 +13,7 @@ install:
   - npm link 
   - cd ../../ 
   - npm run setup 
-  - cd $APPVEYOR_BUILD_FOLDER
+  - cd %APPVEYOR_BUILD_FOLDER%
   - markbind build
   - markbind deploy --ci
 
