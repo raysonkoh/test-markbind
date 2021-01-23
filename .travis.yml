@@ -2,11 +2,11 @@ language: node_js
 node_js:
   - 10
 install:
-  - git clone -b fix-1432 https://github.com/raysonkoh/markbind.git && npm run setup
-script: node packages/cli/index.js build
+  - git clone -b fix-1432 https://github.com/raysonkoh/markbind.git && cd markbind && npm run setup
+script: node markbind/packages/cli/index.js build
 deploy:
   provider: script
-  script: node packages/core/index.js deploy --ci
+  script: node markbind/packages/core/index.js deploy --ci
   skip_cleanup: true
   on:
     branch: master
