@@ -3,10 +3,10 @@ node_js:
   - 10
 install:
   - git clone -b fix-1432 https://github.com/raysonkoh/markbind.git && cd markbind && npm run setup
-script: node markbind/packages/cli/index.js build
+script: markbind build
 deploy:
   provider: script
-  script: node markbind/packages/core/index.js deploy --ci
+  script: markbind deploy --ci
   skip_cleanup: true
   on:
     branch: master
