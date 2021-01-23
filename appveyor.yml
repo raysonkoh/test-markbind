@@ -1,0 +1,22 @@
+environment:
+  nodejs_version: '10'
+
+branches:
+  only:
+    - master
+
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - cd ../
+  - git clone -b fix-1432 https://github.com/raysonkoh/markbind.git
+  - cd markbind/packages/cli 
+  - npm link 
+  - cd ../../ 
+  - npm run setup 
+  - cd %APPVEYOR_BUILD_FOLDER%
+  - markbind build
+  - markbind deploy --ci
+
+test: off
+
+build: off
