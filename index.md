@@ -18,7 +18,7 @@
 <tabs>
 <tab header="1">
 <box>
-<h1>Hello WOrld! FINALLY I WIN!!!!!!!!!!!!!!!!! EDIT EDIT EDIT this is my site toh</h1>
+<h1>Hello WOrld! GITHUB ACTIONS FINALLY I WIN!!!!!!!!!!!!!!!!! EDIT EDIT EDIT this is my site toh</h1>
 </box>
 </tab>
 </tabs>
