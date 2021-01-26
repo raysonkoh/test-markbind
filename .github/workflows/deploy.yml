@@ -15,6 +15,8 @@ jobs:
       - run: cd ../ && git clone -b fix-1432-gh-action https://github.com/raysonkoh/markbind.git
       - run: cd ../markbind/packages/cli && npm link
       - run: cd ../markbind && npm run setup
+      - run: markbind build
+      - run: markbind deploy --ci
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
