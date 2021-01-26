@@ -15,5 +15,5 @@ jobs:
       - run: npm install markbind-cli
       - name: Test env
         env:
-          GITHUB_TOKEN: {{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: echo $GITHUB_TOKEN
