@@ -13,4 +13,7 @@ jobs:
         with:
           node-version: '10'
       - run: npm install markbind-cli
-      - run: npm run build
+      - name: Test env
+        env:
+          GITHUB_TOKEN: {{ secrets.GITHUB_TOKEN }}
+        run: echo $GITHUB_TOKEN
