@@ -6,8 +6,11 @@ jobs:
       - checkout
       - node/install:
           node-version: "10"
-          install-yarn: true
+          npm-version: "6"
+          install-yarn: false
       - run: node --version
+      - run: npm i -g markbind-cli
+      - run: markbind build
 version: 2.1
 orbs:
   node: circleci/node@4.1.0
