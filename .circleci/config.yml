@@ -1,5 +1,5 @@
 jobs:
-  Deploy:
+  build:
     docker:
       - image: 'cimg/base:stable'
     steps:
