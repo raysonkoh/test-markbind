@@ -1,0 +1,11 @@
+jobs:
+  build:
+    docker:
+      - image: cimg/node:10
+    steps:
+      - checkout
+      - run: node --version
+      - run: 
+        name: Installing Markbind-CLI
+        command: npm i -g markbind-cli   
+      - run: markbind --version
