@@ -5,12 +5,12 @@ jobs:
     steps:
       - checkout
       - node/install:
-          node-version: 10
+          node-version: "10"
           install-yarn: true
       - run: node --version
 version: 2.1
 orbs:
-  node: circleci/node@x.y
+  node: circleci/node@4.1.0
 workflows:
   Deploy:
     jobs:
