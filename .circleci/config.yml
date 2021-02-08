@@ -6,6 +6,6 @@ jobs:
       - checkout
       - run: node --version
       - run: 
-        name: Installing Markbind-CLI
-        command: npm i -g markbind-cli   
+          name: Installing Markbind-CLI
+          command: npm i -g markbind-cli   
       - run: markbind --version
