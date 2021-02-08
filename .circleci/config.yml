@@ -1,11 +1,12 @@
 jobs:
-  build:
+  Deploy:
     docker:
-      - image: circleci/node:10
+      - image: 'cimg/base:stable'
     steps:
       - checkout
+      - node/install:
+          node-version: 10
+          install-yarn: true
       - run: node --version
-      - run: 
-          name: Installing Markbind-CLI
-          command: npm i -g markbind-cli   
-      - run: markbind --version
+orbs:
+  node: circleci/node@x.y
