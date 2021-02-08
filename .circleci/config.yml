@@ -1,5 +1,5 @@
 jobs:
-  build:
+  deploy:
     docker:
       - image: 'cimg/base:stable'
     steps:
@@ -8,5 +8,10 @@ jobs:
           node-version: 10
           install-yarn: true
       - run: node --version
+version: 2.1
 orbs:
   node: circleci/node@x.y
+workflows:
+  Deploy:
+    jobs:
+      - deploy
