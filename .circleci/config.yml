@@ -1,5 +1,5 @@
 jobs:
-  deploy:
+  Build-And-Deploy:
     docker:
       - image: 'cimg/base:stable'
     steps:
@@ -18,6 +18,6 @@ version: 2.1
 orbs:
   node: circleci/node@4.1.0
 workflows:
-  Deploy:
+  Deploy-Markbind-Site:
     jobs:
-      - deploy
+      - Build-And-Deploy
