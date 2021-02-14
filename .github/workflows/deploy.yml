@@ -15,4 +15,8 @@ jobs:
       - run: npm i -g markbind-cli
       - run: markbind build
       - run: npm i -g surge
-      - run: surge ./_site ${{ secrets.SURGE_DOMAIN }}
+      - name: Install to Surge
+        env:
+          SURGE_DOMAIN: ${{ secrets.SURGE_DOMAIN }}
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+        run: surge ./_site
