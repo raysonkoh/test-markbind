@@ -21,5 +21,4 @@ jobs:
         run: |
           surge --project ./_site --domain https://pr-${{ github.event.number }}-${{ env.GITHUB_REPOSITORY_SLUG_URL }}.surge.sh/
         env:
-          REPO_SLUG: ${{ GITHUB_REPOSITORY }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
