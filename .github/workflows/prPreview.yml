@@ -1,6 +1,6 @@
-name: Deploy Website 2
+name: Deploy PR Preview
 
-on: [push]
+on: [pull_request]
 
 jobs:
   build:
@@ -12,6 +12,11 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 10
+      - run: echo ${{ github.event.number }}
       - run: npm i -g markbind-cli
       - run: markbind build
       - run: npm i -g surge
+      - name: Deploy PR to Surge
+        run: surge --project ./_site --domain https://ray-pr-test-markbind.surge.sh/
+        env:
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
