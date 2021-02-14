@@ -16,7 +16,7 @@ jobs:
       - run: markbind build
       - run: npm i -g surge
       - name: Deploy PR to Surge
-        run: surge --project ./_site --domain https://pr-${{ github.event.number }}-${{ REPO_SLUG_ARR[0] }}-${{ REPO_SLUG_ARR[1] }}.surge.sh/
+        run: surge --project ./_site --domain https://pr-${{ github.event.number }}-${{ REPO_SLUG_ARR }}[0]-${{ REPO_SLUG_ARR }}[1].surge.sh/
         env:
           REPO_SLUG_ARR: ${{ GITHUB_REPOSITORY//\// }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
