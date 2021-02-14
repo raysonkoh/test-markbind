@@ -15,4 +15,4 @@ jobs:
       - run: npm i -g markbind-cli
       - run: markbind build
       - run: npm i -g surge
-      - run: surge ./_site ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
+      - run: surge ./_site ${{ secrets.SURGE_DOMAIN }}
