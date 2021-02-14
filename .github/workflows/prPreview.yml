@@ -14,8 +14,12 @@ jobs:
           node-version: 10
       - name: Inject slug/short variables
         uses: rlespinasse/github-slug-action@v3.x
+      - run: npm i -g markbind-cli
+      - run: markbind build
+      - run: npm i -g surge
       - name: Deploy PR to Surge
         run: |
-          echo "${{ env.SLUG_URL }}"
+          surge --project ./_site --domain https://pr-${{ github.event.number }}-${{ env.GITHUB_REPOSITORY_SLUG_URL }}.surge.sh/
         env:
+          REPO_SLUG: ${{ GITHUB_REPOSITORY }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
