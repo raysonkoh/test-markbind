@@ -6,6 +6,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: Deploying to surge
+    env:
+      SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
     steps:
       - uses: actions/checkout@v2
       - name: Install surge and fire deployment
@@ -15,5 +17,4 @@ jobs:
       - run: npm i -g markbind-cli
       - run: markbind build
       - run: npm i -g surge
-      - run: |
-          surge ./_site ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
+      - run: surge --project ./_site --domain ${{ secrets.SURGE_DOMAIN }}
