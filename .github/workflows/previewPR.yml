@@ -23,6 +23,9 @@ jobs:
           path: .
       - name: Display structure of downloaded files
         run: ls -R
+      - name: Extract PR number
+        id: pr-number
+        run: echo '::set-output name=ACTIONS_PR_NUMBER::'$(cat ./pr/NUMBER)
       - name: Install Node
         uses: actions/setup-node@v2
         with:
@@ -32,6 +35,6 @@ jobs:
       - name: Install surge and deploy PR to surge
         run: |
           npm i -g surge
-          surge --project ./_site --domain https://pr-${{ github.event.number }}-${{ env.GITHUB_REPOSITORY_SLUG_URL }}.surge.sh/ 
+          surge --project ./_site --domain https://pr-${{ steps.pr-number.outputs.ACTIONS_PR_NUMBER }}-${{ env.GITHUB_REPOSITORY_SLUG_URL }}.surge.sh/ 
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
