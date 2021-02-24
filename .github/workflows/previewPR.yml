@@ -50,5 +50,5 @@ jobs:
               issue_number: ${{ steps.pr-number.outputs.ACTIONS_PR_NUMBER }}
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: 'PR can be found at the link: ${{ steps.pr-url.outputs.ACTIONS_PREVIEW_URL }}
+              body: 'PR can be found at the link: ${{ steps.pr-url.outputs.ACTIONS_PREVIEW_URL }}'
             })
