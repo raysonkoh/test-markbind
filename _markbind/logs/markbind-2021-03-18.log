@@ -1,0 +1,10 @@
+2021-03-18T02:11:44.685Z - info: Initialization success.
+2021-03-18T02:11:50.051Z - info: Website generation started at 10:11:50
+2021-03-18T02:11:50.165Z - info: Building assets...
+2021-03-18T02:11:50.212Z - info: Assets built
+2021-03-18T02:11:50.212Z - info: Generating pages...
+2021-03-18T02:11:50.508Z - info: Pages built
+2021-03-18T02:11:50.622Z - info: Site data built
+2021-03-18T02:11:50.622Z - info: Website generation complete! Total build time: 0.574s
+2021-03-18T02:11:50.636Z - info: Serving "/Users/raysonkoh/Documents/dev/cs3281/test-markbind/_site" at http://127.0.0.1:8080
+2021-03-18T02:11:50.636Z - info: Press CTRL+C to stop ...

@@ -1,7 +1,8 @@
 <frontmatter>
-  layout: default.md
+  header: header.md
   pageNav: 2
   pageNavTitle: "Chapters of This Page"
+  siteNav: site-nav.md
 </frontmatter>
 
 <br>
@@ -12,23 +13,6 @@
     <p class="lead">A tagline can go here</p>
   </div>
 </div>
-
-<tabs>
-<tab header="hello">
-<tabs>
-<tab header="1">
-<box>
-<h1>Hello WOrld! SURGE PR THIS MUST WORK v1.0 HERE TOKEN GITHUB_TOKEN FINALLY I WIN!!!!!!!!!!!!!!!!! EDIT EDIT EDIT this is my site toh</h1>
-</box>
-</tab>
-</tabs>
-</tab>
-<tab header="hello 2">
-<box>
-<h2>Another line yo</h2>
-</box>
-</tab>
-</tabs>
 
 # Heading 1
 Some text some text some text some text some text some text some text. **Some text some text some text some text some text ==some text== some text**. Some text some text some text some text some text some text some text some text some text some text some text some text some text some text. Some text some text some text some text some text some text. Some text some text some text some text some text some text some text.
