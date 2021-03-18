@@ -8,3 +8,19 @@
 2021-03-18T02:11:50.622Z - info: Website generation complete! Total build time: 0.574s
 2021-03-18T02:11:50.636Z - info: Serving "/Users/raysonkoh/Documents/dev/cs3281/test-markbind/_site" at http://127.0.0.1:8080
 2021-03-18T02:11:50.636Z - info: Press CTRL+C to stop ...
+2021-03-18T02:23:54.111Z - info: Website generation started at 10:23:54
+2021-03-18T02:23:54.234Z - info: Building assets...
+2021-03-18T02:23:54.281Z - info: Assets built
+2021-03-18T02:23:54.282Z - info: Generating pages...
+2021-03-18T02:23:54.583Z - info: Pages built
+2021-03-18T02:23:54.768Z - info: Site data built
+2021-03-18T02:23:54.770Z - info: Website generation complete! Total build time: 0.695s
+2021-03-18T02:23:54.770Z - info: Build success!
+2021-03-18T02:24:50.585Z - info: Website generation started at 10:24:50
+2021-03-18T02:24:50.710Z - info: Building assets...
+2021-03-18T02:24:50.757Z - info: Assets built
+2021-03-18T02:24:50.758Z - info: Generating pages...
+2021-03-18T02:24:51.053Z - info: Pages built
+2021-03-18T02:24:51.253Z - info: Site data built
+2021-03-18T02:24:51.254Z - info: Website generation complete! Total build time: 0.701s
+2021-03-18T02:24:51.254Z - info: Build success!
