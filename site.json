@@ -10,8 +10,7 @@
     "*.mbd",
     "*.mbdf",
     "*.njk",
-    ".git/*",
-    "*.php"
+    ".git/*"
   ],
   "pages": [
     {
@@ -19,10 +18,7 @@
       "title": "Landing Page"
     },
     {
-      "glob": [
-        "**/index.md",
-        "**/*.+(md|mbd)"
-      ]
+      "glob": ["**/index.md", "**/*.+(md|mbd)"]
     }
   ],
   "deploy": {

@@ -1,0 +1,14 @@
+environment:
+  nodejs_version: '10'
+
+branches:
+  only:
+    - master
+
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - npm run lol
+
+test: off
+
+build: off
