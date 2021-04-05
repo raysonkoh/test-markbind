@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
-    "lol": "export E=a && node test.js"
+    "lol": "set E=a && node test.js"
   },
   "repository": {
     "type": "git",
